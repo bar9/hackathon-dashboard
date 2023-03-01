@@ -58,4 +58,6 @@ console.log('This processes instantly restarts when a file changes.');
 - [x] replace examples with daisyUI
 - [x] github repo
 - [ ] work through Christoph Nakazawas blog post again
-- [ ] add rust API
+
+## API assumptions:
+* proxy API (falcon, peewee, repository following soon)
