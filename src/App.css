@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.steps.thin .step::after {
+    @apply tick;
+}
+
+.steps-vertical.thin .step::before{
+    @apply axis;
+}
+
+.tick {
+    height: .25rem;
+    width: 1rem;
+}
+
+.axis {
+    width: .25rem;
+}
+
 /* fixed width only on sm and up */
 @media (min-width: 640px) {
     .w-fixed {

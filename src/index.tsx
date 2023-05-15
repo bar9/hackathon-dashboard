@@ -9,7 +9,7 @@ const appState = new AppState();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div data-theme={"emerald"}>
+    <div data-theme={"wireframe"}>
       <Dashboard appState={appState}></Dashboard>
     </div>
   </StrictMode>,
